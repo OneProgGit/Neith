@@ -4,5 +4,9 @@ version = "0.1.0"
 edition = "2024"
 description = "A next-gen operating system (will be)"
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/OneProgGit/Neith"
+
+[workspace]
+members = ["neith-core", "neith-ui"]
 
 [dependencies]
